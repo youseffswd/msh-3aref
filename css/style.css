@@ -9,6 +9,8 @@
 *::before{
     box-sizing: border-box;
     text-transform: capitalize;
+    margin: 0;
+    padding:0;
 }
 body{
     font-family: 'Work Sans',Arial, Helvetica, sans-serif !important;
@@ -175,9 +177,7 @@ header > .img-container{
     height: 700px;
     cursor: pointer;
 }
-.portfolio .slide-up4{
-    transform: translatey(-28%);
-}
+
 .portfolio .slide-up1 img,
 .portfolio .slide-up2 img,
 .portfolio .slide-up3 img,
@@ -313,7 +313,7 @@ header > .img-container{
 ****************start fourth section the smallest one
 
 */
-.fourth .col-12 h2{
+.fourth .col-12 h2{f
     color: #00214e;
     font-weight: bold;
     font-size:40px;
@@ -382,30 +382,33 @@ footer svg {
 footer svg:hover {
     stroke: #00214e;
 }
-footer .row:last-of-type .col-8:first-of-type p{
+footer .row:last-of-type .col-12:first-of-type p{
     color: rgba(255,255,255,.4) !important;
     font-weight: 200 !important;
-    font-size:25px !important;
+    font-size:20px !important;
 }
-footer .row:last-of-type .col-8:last-of-type input{
+footer .row:last-of-type .col-12:last-of-type input{
     color: rgba(255,255,255,.4) !important;
     background: none;
     border: none;
     border-bottom: 3px solid rgba(255,255,255,.2);
-    width: 90%;
-    padding: 20px 0px 0px 15px;
+
+    padding: 15px 0px 5px 5px;
     font-size: 25px;
     margin-right: 2%;
     transition: all .4s;
-    margin-bottom: 30px;
+    display: block;
+    font-size: 14px;
 }
 footer .in4{
-    height: 50px;
-    width: 7%;
-    border:2px solid rgba(255,255,255,.2) !important;
+   height: 50px;
+    border: 2px solid rgba(255,255,255,.2) !important;
     background: none;
     color: rgba(255,255,255,.2) !important;
     transition: .3s all linear;
+    padding: 0px 15px ;
+    display: block;
+    margin-left: auto;
 }
 footer .in4:hover{
     background: rgba(255,255,255,.2);
@@ -493,6 +496,9 @@ footer .in4:hover{
         transition: 6.7s all ease-in-out;
         width: 100%;
     }
+    .portfolio .slide-up4{
+        transform: translatey(-28%);
+    }
     .portfolio .slide-up1:hover img{
         transform: translatey(-56%);
     }
@@ -527,15 +533,16 @@ footer .in4:hover{
     }
     
     .service{
-        transform: translateY(-38%);
+        margin-top:-65%;
         
     }
     .fourth{
-        transform: translateY(-205%);
+        padding-bottom:100px !important;
+/*        transform: translateY(-205%);*/
     }
     .fifth{
         height: 170vh;
-        transform:translateY(-51%);
+/*        transform:translateY(-51%);*/
     }
     .fifth .flag{
         bottom: 28%;
@@ -557,9 +564,11 @@ footer .in4:hover{
     .out:hover span{
         color: #CF1A45;
     }
+/*
     footer {
         transform: translateY(-107%);
     }
+*/
     footer p {
         font-size:16px !important;
     }
@@ -604,12 +613,14 @@ footer .in4:hover{
     .portfolio .slide-up4:hover img{
         transform: translatey(-82%);
     }
+/*
      .fourth{
         transform: translateY(-185%);
     }
+*/
     .fifth{
         height: 180vh;
-        transform:translateY(-30%);
+/*        transform:translateY(-30%);*/
     }
     .fifth .flag{
         bottom: 28%;
@@ -618,7 +629,7 @@ footer .in4:hover{
         left: 41%;
     }
     footer {
-        transform: translateY(-69%);
+/*        transform: translateY(-69%);*/
     }
     footer p {
         font-size:17px !important;
